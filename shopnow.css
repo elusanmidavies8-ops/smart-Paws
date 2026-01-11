@@ -1,0 +1,43 @@
+h1{
+	font-family:'arial', sans-serif;
+	text-align:center;
+}
+.inputs{
+	border-radius:10px;
+	padding:17px;
+	width: 350px;
+	margin: 0 auto;
+}
+input[checkbox]{
+	display: inline-flex;
+	align-items: left;
+}
+button{
+	background-color: black;
+	padding:15px;
+	border:30px;
+	border-radius:15px;
+	color:white;
+	display: flex;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.button{
+	background-color: black;
+	padding:16px;
+	border:30px;
+	border-radius:15px;
+	color:white;
+	display: flex;
+	margin: 0 auto;
+	cursor: pointer;
+}
+hover:.inputs{
+	border: 2px solid gray;
+}
+input:userinvalid{
+	border-color: red;
+}
+input:uservalid {
+	border-color: lightgreen;
+}
